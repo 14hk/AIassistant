@@ -1,0 +1,80 @@
+# API ключи и конфиденциальная информация
+.env
+*.key
+*.pem
+*.p12
+
+.env.local
+.env.production
+.env.staging
+config/secrets.json
+config/api-keys.json
+secrets/
+private/
+
+# Логи
+*.log
+logs/
+debug.log
+error.log
+
+# База данных
+*.db
+*.sqlite
+*.sqlite3
+database.json
+db/
+
+# Временные файлы
+*.tmp
+*.temp
+temp/
+cache/
+.cache/
+
+# Пользовательские данные
+user_data/
+uploads/
+downloads/
+personal/
+
+# Системные файлы
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE и редакторы
+.vscode/settings.json
+.idea/
+*.swp
+*.swo
+*~
+
+# Node.js (если используется)
+node_modules/
+npm-debug.log
+yarn-error.log
+package-lock.json
+yarn.lock
+
+# Python (если используется)
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+venv/
+env/
+.venv/
+
+# Backup файлы
+*.bak
+*.backup
+backup/
+
+# Архивы
+*.zip
+*.rar
+*.7z
+*.tar.gz
+.vercel
